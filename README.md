@@ -1,2 +1,2 @@
-# Xamain-vs-Flutter
+# Xamain vs Flutter
 Xamarin &amp; Flutter micro projects to see how they differ
