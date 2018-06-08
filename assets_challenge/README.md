@@ -1,6 +1,6 @@
 # Assets Challenge
 
-This simple demo project shows how simple is working with assets.
+This demo Flutter project shows how simple is working with assets.
 Files as png, fonts, json are imported once in a single main yaml file.
 
 ## Project Goal
