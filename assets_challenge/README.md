@@ -8,7 +8,7 @@ Files as png, fonts, json are imported once in a single main yaml file.
 - showing a text formatted with a custom font 
 
 ## Result
-
+<img alt="Assets Demo" src="https://github.com/lewixlabs/Xamain-vs-Flutter/blob/master/assets_challenge/screenshot/device-2018-06-08-161829.png" width="50%" height="50%"/>
 
 ## Getting Started
 
