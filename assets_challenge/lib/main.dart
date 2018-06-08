@@ -48,7 +48,7 @@ class AssetsChallengeHomePage extends StatelessWidget {
                   SizedBox(height: 8.0),
                   new GestureDetector(
                       child: Text(
-                        'Foto di Jörg Bittner Unna\nOpera propria\nCC BY 3.0',
+                        'Foto di Jörg Bittner Unna\nOpera propria',
                         style: TextStyle(fontFamily: 'Elegant', fontSize: 45.0),
                         textAlign: TextAlign.center,
                       ),
