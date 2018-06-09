@@ -1,6 +1,6 @@
 # Assets Challenge
 
-This simple demo project shows how simple is working with assets.
+This demo Flutter project shows how simple is working with assets.
 Files as png, fonts, json are imported once in a single main yaml file.
 
 ## Project Goal
@@ -8,7 +8,13 @@ Files as png, fonts, json are imported once in a single main yaml file.
 - showing a text formatted with a custom font 
 
 ## Result
-<img alt="Assets Demo" src="https://github.com/lewixlabs/Xamain-vs-Flutter/blob/master/assets_challenge/screenshot/device-2018-06-08-161829.png" width="50%" height="50%"/>
+Android           |  iOS
+:-------------------------:|:-------------------------:
+![Android](https://github.com/lewixlabs/Xamain-vs-Flutter/blob/master/assets_challenge/screenshot/device-2018-06-08-161829.png)  |  ![iOS](https://github.com/lewixlabs/Xamarin-vs-Flutter/blob/master/assets_challenge/screenshot/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-06-08%20at%2023.21.01.png)
+
+## Credits
+- image: photo by Jörg Bittner Unna https://commons.wikimedia.org/w/index.php?curid=46495986
+- font: Elegant & Sensational by cataleyatyperface@gmail.com
 
 ## Getting Started
 
