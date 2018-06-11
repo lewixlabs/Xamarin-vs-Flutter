@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/assets_challenge.iml" filepath="$PROJECT_DIR$/assets_challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets_challenge_android.iml" filepath="$PROJECT_DIR$/assets_challenge_android.iml" />
+    </modules>
+  </component>
+</project>
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/assets_challenge.iml" filepath="$PROJECT_DIR$/.idea/assets_challenge.iml" />
+    </modules>
+  </component>
+</project>
+>>>>>>> 61d44a96d7ef0673e7312e4f3ccf3a414e972027
