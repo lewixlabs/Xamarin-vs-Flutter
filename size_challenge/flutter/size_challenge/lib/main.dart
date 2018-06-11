@@ -44,38 +44,59 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  Widget _comicImage;
+  Text _comicTitle;
+  Widget _materialButtonContent;
 
-  Widget _comicImage = Icon(Icons.file_download);
-  Text _comicTitle = Text('No comic loaded');
+  Widget _getDynamicButton(bool isLoadingComic) {
+    if (isLoadingComic)
+      return CircularProgressIndicator();
+    else {
+      return MaterialButton(
+        child: Text(
+          'Load Xkcd Comic',
+          style: TextStyle(color: Colors.white),
+        ),
+        onPressed: _loadComic,
+        color: Colors.blue,
+        splashColor: Colors.lightBlue,
+      );
+    }
+  }
 
+  @override
+  initState() {
+    super.initState();
 
+    _comicImage = Icon(Icons.file_download);
+    _comicTitle = Text('No comic loaded');
+
+    _materialButtonContent = _getDynamicButton(false);
+  }
 
   void _loadComic() async {
-
     setState(() {
-
-      _comicImage = CircularProgressIndicator();
+      _materialButtonContent = _getDynamicButton(true);
       _comicTitle = Text('Loading');
     });
 
     var comic = await ComicApi().getComic();
 
-    setState(()  {
+    setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
 
-      if (comic == null){
+      if (comic == null) {
         _comicImage = Icon(Icons.file_download);
         _comicTitle = Text('No comic loaded');
-      }
-      else {
-
+      } else {
         _comicImage = comic.comicImage;
         _comicTitle = Text(comic.comicTitle);
       }
+      _materialButtonContent = _getDynamicButton(false);
     });
   }
 
@@ -97,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: new Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(16.0),
           child: new Column(
             // Column is also layout widget. It takes a list of children and
             // arranges them vertically. By default, it sizes itself to fit its
@@ -115,17 +136,18 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               _comicImage,
-              SizedBox(height: 14.0,),
+              SizedBox(
+                height: 14.0,
+              ),
               _comicTitle,
+              SizedBox(
+                height: 14.0,
+              ),
+              _materialButtonContent
             ],
           ),
         ),
       ),
-      floatingActionButton: new FloatingActionButton(
-        onPressed: _loadComic,
-        tooltip: 'Increment',
-        child: new Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
