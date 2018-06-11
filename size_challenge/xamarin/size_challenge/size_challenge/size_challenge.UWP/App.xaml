@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="size_challenge.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:size_challenge.UWP"
+    RequestedTheme="Light">
+
+</Application>

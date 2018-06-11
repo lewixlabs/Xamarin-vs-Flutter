@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e415e4-2ca0-4a10-90d7-2dce5c399b83" name="Default" comment="Removed FloatingButton&#10;Added MaterialButton to get UI similar to Xamarin Forms">
-      <change beforePath="$PROJECT_DIR$/flutter/size_challenge/android/app/build.gradle" afterPath="$PROJECT_DIR$/flutter/size_challenge/android/app/build.gradle" />
-    </list>
+    <list default="true" id="f4e415e4-2ca0-4a10-90d7-2dce5c399b83" name="Default" comment="Removed FloatingButton&#10;Added MaterialButton to get UI similar to Xamarin Forms" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
