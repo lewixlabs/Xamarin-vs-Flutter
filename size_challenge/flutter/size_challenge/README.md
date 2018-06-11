@@ -1,4 +1,4 @@
-# size_challenge
+# Size Challenge
 
 Demo project to check size of an app built with Flutter
 
