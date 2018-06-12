@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Runner.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>610A86ECAAE172D06434D96F620C959C11FF1344</string>
+				<key>dateExpires</key>
+				<string>18/09/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>610A86ECAAE172D06434D96F620C959C11FF1344</string>
+						<key>dateExpires</key>
+						<string>18/09/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>App.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>G8T8XQ7RF6</string>
+						<key>name</key>
+						<string>ALIASLAB SPA</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>610A86ECAAE172D06434D96F620C959C11FF1344</string>
+						<key>dateExpires</key>
+						<string>18/09/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Flutter.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>G8T8XQ7RF6</string>
+						<key>name</key>
+						<string>ALIASLAB SPA</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>G8T8XQ7RF6.cloud.llabs.sizeChallenge</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>G8T8XQ7RF6</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>G8T8XQ7RF6.cloud.llabs.sizeChallenge</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Runner.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>20e7afa0-b2b4-483c-9f28-55201cbc38a1</string>
+				<key>name</key>
+				<string>XC iOS Ad Hoc: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>G8T8XQ7RF6</string>
+				<key>name</key>
+				<string>ALIASLAB SPA</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
