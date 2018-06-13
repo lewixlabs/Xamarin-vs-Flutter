@@ -1,6 +1,6 @@
 # Size Challenge
 
-Demo project to check size and performance results with Xamarin Forms & Flutter
+Demo project to check size and performance results with Xamarin Forms & Flutter.
 
 ## Getting Started
 
