@@ -386,7 +386,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cloud.llabs.sizeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.llabs.sizechallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "20e7afa0-b2b4-483c-9f28-55201cbc38a1";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS Ad Hoc: *";
@@ -414,7 +414,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cloud.llabs.sizeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.llabs.sizechallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "20e7afa0-b2b4-483c-9f28-55201cbc38a1";
 				PROVISIONING_PROFILE_SPECIFIER = "XC iOS Ad Hoc: *";
